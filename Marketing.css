@@ -1,0 +1,1250 @@
+*{
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	justify-content: space-around;
+	width: 100%;
+	height: 15vh;
+	background-color: #ffe01b;
+	font-weight: bold;
+	
+}
+.head .center
+   {
+     display: flex;
+	 flex-direction: row;
+	 align-items: center;
+  }
+  .head .right
+      {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+   }
+ 
+.head a
+  {
+	text-decoration: none;
+    color: black;
+    margin-right: 3em;
+    font-size: 15px;
+  }	
+  .head a:hover
+  {
+  	text-decoration: underline;
+  	color: green;
+  }	
+  .head:hover
+  {
+  	background-color: white;
+  }
+  i:hover
+  {
+  	color: green;
+  }
+.head .right i
+   {
+	margin-right: 1em;
+	font-size: 25px;
+   }
+   .center i
+   {
+   	font-size: 30px;
+   }
+   .center i:hover
+   {
+   	transform:rotate(-90deg);
+   }
+.head .but .one
+	{
+	 margin-right: 2em;
+	 padding: 10px 20px;
+	 }
+.head .but .two
+{
+	padding: 10px 20px;
+	background-color: blue;
+	border: none;
+}
+.head .but .two:hover
+{
+	background-color: black;
+	color: white;
+}
+/*head over*/
+.grow
+{
+  width: 100%;
+  height:80vh;
+  display: flex;
+  flex-direction: row;
+  background-color:#ffe01b ;
+}
+.grow .left
+{
+  width: 50%;
+  height:80vh;
+  float: left;
+  position: relative;
+}
+.grow .left .text
+{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.grow .left .text .but
+{
+  padding: 15px 35px;
+  background-color: #007c89;
+  color: white;
+  border: none;
+  margin-right: 2em;
+}
+.grow .left .text .but:hover
+{
+  background-color: lightblue;
+}
+.grow .left .text a
+{
+  text-decoration: none;
+  color: #007c89;
+}
+.grow .left .text a:hover
+{
+  text-decoration: underline;
+  color: black;
+}
+.grow .left .text h1,p,a
+{margin-bottom: 1.5em;
+}
+.grow .right
+{
+  width: 50%;
+  height: 80vh;
+  float: right;
+  position: relative;
+}
+.grow .right img
+{
+  width: 80%;
+  height: 60vh;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+
+} 
+.grow .right a
+{
+   position: absolute;
+  top: 50%;
+  left: 97%;
+  transform: translate(-50%,-50%);
+  transform: rotate(-90deg);
+  padding: 5px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  position: fixed;
+
+}
+.grow .right i
+{
+  position: absolute;
+  top: 92%;
+  left: 97%;
+  transform: translate(-50%,-50%);
+  font-size: 2em;
+  position: fixed;
+}
+@media only screen and (max-width: 800px)
+{
+  .grow
+{
+  width: 100%;
+  height:160vh;
+  display: flex;
+  flex-direction: column;
+  background-color:#ffe01b ;
+}
+.grow .left
+{
+  width: 100%;
+  height:80vh;
+  float: left;
+  position: relative;
+}
+.grow .left .text
+{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%,-50%);
+
+}
+.grow .left .text .but
+{
+  padding: 15px 35px;
+  background-color: #007c89;
+  color: white;
+  border: none;
+  margin-right: 2em;
+}
+.grow .left .text .but:hover
+{
+  background-color: lightblue;
+}
+.grow .left .text a
+{
+  text-decoration: none;
+  color: #007c89;
+}
+.grow .left .text a:hover
+{
+  text-decoration: underline;
+  color: black;
+}
+.grow .left .text h1,p,a
+{margin-bottom: 1.5em;
+}
+.grow .right
+{
+  width: 100%;
+  height: 80vh;
+  float: left;
+  position: relative;
+}
+.grow .right img
+{
+  width: 80%;
+  height: 60vh;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+
+} 
+.grow .right a
+{
+   position: absolute;
+  top: 50%;
+  left: 97%;
+  transform: translate(-50%,-50%);
+  transform: rotate(-90deg);
+  padding: 5px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  position: fixed;
+
+}
+.grow .right i
+{
+  position: absolute;
+  top: 92%;
+  left: 97%;
+  transform: translate(-50%,-50%);
+  font-size: 2em;
+  position: fixed;
+}
+
+}
+.out
+{
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  padding: 25px;
+  font-size: 25px;
+}
+.sell
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.sell .left
+{
+  width: 50%;
+  height: 100vh;
+  float: left;
+  position: relative;
+}
+.sell .left img
+{
+  width: 70%;
+  height: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+}
+
+.sell .right
+{
+  width: 50%;
+  height: 100vh;
+  float: right;
+  position: relative;
+}
+.sell .right a
+{
+  text-decoration: none;
+  color: darkgreen;
+}
+.sell .right a:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+.sell .right .text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.sell .right .text h1,p,a
+{margin-bottom: 1.5em;
+}
+@media only screen and (max-width: 800px)
+{
+  .sell
+{
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+}
+.sell .left
+{
+  width: 100%;
+  height: 75vh;
+  float: left;
+  position: relative;
+
+}
+.sell .left img
+{
+  width: 70%;
+  height: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+}
+
+.sell .right
+{
+  width: 100%;
+  height: 75vh;
+  float: left;
+  position: relative;
+   font-size: 15px;
+}
+.sell .right a
+{
+  text-decoration: none;
+  color: darkgreen;
+}
+.sell .right a:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+.sell .right .text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.sell .right .text h1,p,a
+{margin-bottom: 1.5em;
+}
+}
+.win
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.win .left
+{
+  width: 50%;
+  height: 100vh;
+  float: left;
+  position: relative;
+}
+.win .left img
+{
+  width: 70%;
+  height: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+}
+
+.win .right
+{
+  width: 50%;
+  height: 100vh;
+  float: right;
+  position: relative;
+}
+.win .right a
+{
+  text-decoration: none;
+  color: darkgreen;
+}
+.win .right a:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+.win .right .text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.win .right .text h1,p,a
+{
+  margin-bottom: 1.5em;
+}
+@media only screen and (max-width: 800px)
+{
+  .win
+{
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+}
+.win .left
+{
+  width: 100%;
+  height: 75vh;
+  float: left;
+  position: relative;
+}
+.win .left img
+{
+  width: 70%;
+  height: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+}
+
+.win .right
+{
+  width: 100%;
+  height: 75vh;
+  float: left;
+  position: relative;
+   font-size: 15px;
+}
+.win .right a
+{
+  text-decoration: none;
+  color: darkgreen;
+}
+.win .right a:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+.win .right .text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.win .right .text h1,p,a
+{
+  margin-bottom: 1.5em;
+}
+}
+.engage
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+ }
+.engage .left
+{
+  width: 50%;
+  height: 100vh;
+  float: left;
+  position: relative;
+}
+.engage .left img
+{
+  width: 70%;
+  height: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+}
+
+.engage .right
+{
+  width: 50%;
+  height: 100vh;
+  float: right;
+  position: relative;
+}
+.engage .right a
+{
+  text-decoration: none;
+  color: darkgreen;
+}
+.engage .right a:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+.engage .right .text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.engage .right .text h1,p,a
+{
+  margin-bottom: 1.5em;
+}
+@media only screen and (max-width: 800px)
+{
+  .engage
+{
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+ }
+.engage .left
+{
+  width: 100%;
+  height: 75vh;
+  float: left;
+  position: relative;
+}
+.engage .left img
+{
+  width: 70%;
+  height: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+}
+
+.engage .right
+{
+  width: 100%;
+  height: 75vh;
+  float: right;
+  position: relative;
+   font-size: 15px;
+}
+.engage .right a
+{
+  text-decoration: none;
+  color: darkgreen;
+}
+.engage .right a:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+.engage .right .text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.engage .right .text h1,p,a
+{
+  margin-bottom: 1.5em;
+}
+}
+.body
+{
+  width: 100%;
+  height: 70vh;
+  background-color: #f6f6f4;
+
+}
+.body .text
+{
+  width: 100%;
+  height: 20vh;
+ text-align: center;
+ font-size: 25px;
+ margin-top: 2em;
+}
+.body .img
+{
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ }
+.body .img img
+{ 
+  width: 70%;
+  height: 20vh;
+
+}
+.body .img h4
+{ 
+  margin-right: 5em;
+}
+@media only screen and (max-width: 800px)
+{
+  .body
+{
+  width: 100%;
+  height: 130vh;
+  background-color: #f6f6f4;
+
+}
+.body .text
+{
+  width: 100%;
+  height: 20vh;
+ text-align: center;
+ font-size: 25px;
+ margin-top: 2em;
+}
+.body .img
+{
+  margin-top: 30px;
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ }
+.body .img img
+{ 
+  width: 70%;
+  height: 20vh;
+
+}
+.body .img h4
+{ 
+  margin-right: 5em;
+}
+
+}
+.keep
+{
+  width: 100%;
+  height: 80vh;
+  background-color: #fbeeca;
+ }
+.keep .text
+{
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  font-size: 25px;
+}
+.keep .img
+{
+  width: 80%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.keep .img a
+{
+  text-decoration: none;
+  color: black;
+}
+.img .one a
+{ 
+ margin-bottom: 10px;
+}
+@media only screen and (max-width: 800px)
+{
+.keep
+{
+  width: 100%;
+  height: 160vh;
+  background-color: #fbeeca;
+ }
+.keep .text
+{
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  font-size: 25px;
+}
+.keep .img
+{
+  width: 80%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.keep .img a
+{
+  
+  text-decoration: none;
+  color: black;
+}
+}
+.do
+{
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  padding: 40px;
+  font-size: 20px;
+}
+.get
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+ }
+.get .right
+{
+  width: 50%;
+  height: 100vh;
+  float: right;
+  position: relative;
+}
+.get .right img
+{
+  width: 70%;
+  height: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+}
+
+.get .left
+{
+  width: 50%;
+  height: 100vh;
+  float: left;
+  position: relative;
+}
+.get .left a
+{
+  text-decoration: none;
+  color: darkgreen;
+}
+.get .left a:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+.get .left .text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+}
+.get .left .text h2,p,a
+{
+  margin-bottom: 1.5em;
+  }
+  @media only screen and (max-width: 800px)
+  {
+    .get
+{
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+ }
+.get .right
+{
+  width: 100%;
+  height: 75vh;
+  float: left;
+  position: relative;
+}
+.get .right img
+{
+  width: 60%;
+  height: 60vh;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+}
+
+.get .left
+{
+  width: 100%;
+  height: 75vh;
+  float: left;
+  position: relative;
+}
+.get .left a
+{
+  text-decoration: none;
+  color: darkgreen;
+}
+.get .left a:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+.get .left .text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 15px;
+}
+.get .left .text h2,p,a
+{
+  margin-bottom: 1.5em;
+  }
+
+  }
+  .market
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.market .right
+{
+  width: 50%;
+  height: 100vh;
+  float: right;
+  position: relative;
+}
+.market .right img
+{
+  width: 70%;
+  height: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.market .left
+{
+  width: 50%;
+  height: 100vh;
+  float: left;
+  position: relative;
+}
+.market .left a
+{
+  text-decoration: none;
+  color: darkgreen;
+}
+.market .left a:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+.market .left .text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+}
+.market .left .text h2,p,a
+{
+  margin-bottom: 1.5em;
+  }
+  @media only screen and (max-width: 800px)
+  {
+    .market
+{
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+}
+.market .right
+{
+  width: 100%;
+  height: 75vh;
+  float: right;
+  position: relative;
+}
+.market .right img
+{
+  width: 60%;
+  height: 60vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.market .left
+{
+  width: 100%;
+  height: 75vh;
+  float: left;
+  position: relative;
+}
+.market .left a
+{
+  text-decoration: none;
+  color: darkgreen;
+}
+.market .left a:hover
+{
+  color: black;
+  text-decoration: underline;
+}
+.market .left .text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 15px;
+}
+.market .left .text h2,p,a
+{
+  margin-bottom: 1.5em;
+  }
+  }
+  .since
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.since .right
+{
+  width: 50%;
+  height: 100vh;
+  float: right;
+  position: relative;
+}
+.since .right img
+{
+  width: 70%;
+  height: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+}
+
+.since .left
+{
+  width: 50%;
+  height: 100vh;
+  float: left;
+  font-size: 25px;
+  position: relative;
+
+}
+.since .left .text
+{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.since .left .text .num
+{
+  display: flex;
+  flex-direction: row;
+}
+.num .one 
+{
+  margin-right: 1em;
+}
+.num h2,h3
+{
+  margin-bottom: 0.5em;
+}
+@media only screen and (max-width: 800px)
+{
+    .since
+{
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+}
+.since .right
+{
+  width: 100%;
+  height: 75vh;
+  float: left;
+  position: relative;
+}
+.since .right img
+{
+  width: 60%;
+  height: 60vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.since .left
+{
+  width: 100%;
+  height: 75vh;
+  float: left;
+  font-size: 15px;
+  position: relative;
+
+}
+.since .left .text
+{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.since .left .text .num
+{
+  display: flex;
+  flex-direction: row;
+}
+.num .one 
+{
+  margin-right: 1em;
+}
+.num h2,h3
+{
+  margin-bottom: 0.5em;
+}
+}
+
+
+  .let
+{
+  width: 100%;
+  height: 50vh;
+  background-color:#ffe01b ;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+  
+}
+
+.let button
+{
+  padding: 20px 30px;
+  background-color: #007c89;
+  color: white;
+  border: none;
+
+}
+.let h1,h4
+{ 
+  margin: 0.5em;
+}
+.related
+{
+  width: 100%;
+  height: 20vh;
+  align-items: center;
+  background-color: #efeeea;
+  
+ }
+ .relatedlink
+ {
+  width: 80%;
+  height: 20vh;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+ }
+ .a a
+ {
+  text-decoration: none;
+  color: black;
+  margin-right: 1.5em;
+  }
+  @media only screen and (max-width: 800px)
+  {
+    .related
+{
+  width: 100%;
+  height: 40vh;
+  align-items: center;
+  background-color: #efeeea;
+  
+ }
+ .relatedlink
+ {
+  width: 80%;
+  height: 40vh;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+ }
+ .a a
+ {
+  text-decoration: none;
+  color: black;
+  margin-right: 1.5em;
+  }
+  }
+  .down
+  {
+    width: 100%;
+    height: 80vh;
+     background-color: #efeeea;
+  }
+  .down .text
+  {
+   width: 75%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+  
+  }
+  .text .products,.resources,.community,.company,.help,.presents
+  {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-top: 5%;
+     }
+.text a
+{
+   text-decoration: none;
+    color: black;
+
+}
+.text img
+{
+width: 170px;
+height: 40px;
+}
+
+.down a:hover
+{
+   text-decoration: underline;
+}
+.done .hi:hover
+{
+margin-left: 10px;
+}
+.end
+{
+  width: 100%;
+  height: 30vh;
+  background-color: #efeeea;
+  margin-right: auto;
+  margin-right: auto;
+ }
+.end .cuntent
+{
+  width: 80%;
+  height: 30vh;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.end .cuntent .left
+{
+  width: 60%;
+  height: 30vh;
+  float: left;
+  position: relative;
+  }
+.end .cuntent .left .text
+{
+  width: 60%;
+  height: 30vh;
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+.end .cuntent .right
+{
+  width: 40%;
+  height: 30vh;
+  float: right;
+  position: relative;
+ 
+}
+.end .cuntent .right .text
+{
+  width: 40%;
+  height: 30vh;
+  position: absolute;
+  top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+.cuntent img
+{
+  width: 70px;
+  height: 30px;
+  margin-right: 10px;
+}
+.cuntent i
+{
+  margin-right: 10px;
+}
+
